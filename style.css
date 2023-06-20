@@ -55,5 +55,6 @@ a {
 }
 
 .botao_verde {
-    background-color: #999;
+    background-color: red;
+    color: white;
 }
