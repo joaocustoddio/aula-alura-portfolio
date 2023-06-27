@@ -60,6 +60,11 @@
     gap: 10px;
 }
 
+.conteudo__links__link:hover{
+    background-color: #272727;
+    border-color: var(--cor-secundaria);
+}
+
 .icone{
     font-size: 35px !important;
     color: var(--cor-secundaria);
