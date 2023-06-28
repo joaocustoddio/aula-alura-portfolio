@@ -2,8 +2,24 @@
     color: var(--cor-secundaria);
 }
 
+.cabecalho{
+    padding: 3% 0% 0% 18%;
+}
+.cabecalho__menu{
+    display: flex;
+    gap:80px;
+}
+
+.cabecalho__menu__link{
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 .apresentacao {
-    margin: 10% auto;
+    padding: 5% 15%;
     max-width: 1200px;
     display: flex;
     align-items: center;
@@ -68,4 +84,13 @@
 .icone{
     font-size: 35px !important;
     color: var(--cor-secundaria);
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    color: var(--cor-principal);
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    padding: 24px;
 }
